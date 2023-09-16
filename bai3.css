@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Space-Grotesk;
+    src: url(font/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Light.ttf);
+}
+
+body{
+    width: 1280px;
+    background-color: #1C233D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 72px;
+    color: #E5E5E5;
+}
+
+header, .feature{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.feature{
+    padding: 10px 0 0 0;
+}
+
+.logo{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* padding: 0 50px 0 0; */
+}
+
+.logo, .feature, #explore ,.left-content h1{
+    font-family: Space-Grotesk;
+}
+
+.feature #explore{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search input[type="text"]{
+    width: 242px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    opacity: 0.1;
+}
+.search iconify-icon{
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
+.sign-in button{
+    display: inline-flex;
+    padding: 8px 31px 9px 29px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(86deg, rgba(191, 196, 238, 0.09) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0.00) 121.57%);
+}
+
+.sign-in button:hover{
+    cursor: pointer;
+}
+
+.content{
+    margin: 100px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.content {
+    padding: 30px 0 0 80px;
+    display: grid;
+    grid-template-columns: calc(50% - (30px * 1/2)) calc(50% - (30px * 1/2));
+    grid-column-gap: 180px;
+}
+
+.left-content h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-content p{
+    padding: 20px 0 20px 0;
+    font-family: Poppins;
+}
+
+.left-content button{
+    font-family: Space-Grotesk;
+    color: #E5E5E5;
+    width: 200px;
+    height: 40px;
+    display: inline-flex;
+    padding: 10px 48px 10px 47px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(86deg, rgba(191, 196, 238, 0.09) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0.00) 121.57%);
+}
+
+.left-content button:hover{
+    cursor: pointer;
+}
+
+.left-content .des{
+    padding: 150px 0 0 0;
+}
+
+.left-content .number, .detail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-content .detail{
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-content .number{
+    font-family: Space-Grotesk;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-content .des .des-item{
+    display: flex;
+    display: inline-block;
+}
+
+.right-content{
+    width: 404px;
+    height: 494px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #30384D;
+}
+/* .right-content .title{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container{
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+.container .img{
+    position: absolute;
+}
+#img1{
+    z-index: 1;
+    left: 20px;
+}
+#img2{
+    z-index: 2;
+    left: 80px;
+}
+
+
+.right-content .avt img{
+    position: relative;
+    width: 357.28px;
+    height: 370.238px;
+    flex-shrink: 0;
+    padding: 20px 0 0 40px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right-content .title{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space-Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 0 0 45px;
+} */
+
+.footer-img{
+    display: flex;
+    padding: 80px 0 0 100px;
+    float: right;
+    gap: 50px;
+}

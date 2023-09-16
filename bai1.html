@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+</head>
+<body>
+    <h1>Tìm số chính phương</h1>
+    
+    <form>
+        Nhập số a: <input type="number" id="numA" /><br>
+        Nhập số b: <input type="number" id="numB" /><br>
+        <button type="button" onclick="findPerfectSquares()">Tìm số chính phương</button>
+    </form>
+    
+    <h2>Số chính phương là</h2>
+    <p id="result"></p>
+    
+    <script>
+        function findPerfectSquares() {
+            var numA = document.getElementById('numA').value;
+            var numB = document.getElementById('numB').value;
+            var result = '';
+            
+            for (var i = numA; i <= numB; i++) {
+                if (Math.sqrt(i) % 1 === 0) {
+                    result += i + ' ';
+                }
+            }
+            
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</body>
+</html>
+    
+
